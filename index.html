@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>EcoFiltro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="brand">
+            <a class="brand_link" href="#">
+                <img class="brand_logo" src="images/brand.png">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <a class="nav-link" href="#about-product">EcoFiltro</a>
+            <a class="nav-link" href="#about-company">Sobre Nosotros</a>
+            <a class="nav-link nav-link--cta" href="#contact-us">Revolución Verde!</a>
+        </nav>
+    </header>
+    <main>
+        <section class="about-product" id="about-product">
+            <div class="about-product__picture-container">
+                <img class="about-product__picture" src="images/ecofiltro.png">
+            </div>
+            <div class="product-info">
+                <h1 class="product-info__name section-title">EcoFiltro</h1>
+                <h2 class="product-info__slogan">Purifica tu agua, cuida el planeta.</h2>
+                <p class="product-info__description section-text">
+                    EcoFiltro es un filtro de agua protátil hecho con materiales 100%
+                    reciclados y ecológicos. Nuestro filtro permite purificar hasta el 99.9% de las bacterias del agua,
+                    asegurando una hidratación segura y sostenible. Es ideal para personas que viven en áreas rurales,
+                    para acampadas o para aquellos que buscan reducir el uso de plásticos embotellados.
+                </p>
+            </div>
+        </section>
+        <section class="about-company" id="about-company">
+            <div class="decorations">
+                <div class="decoration-container dec-container-1">
+                    <img class="decoration dec-1" src="images/decor1.png">
+                </div>
+                <div class="decoration-container dec-container-2">
+                    <img class="decoration dec-2" src="images/decor2.png">
+                </div>
+            </div>
+            <h1 class="about-company__title section-title">Sobre Nosotros</h1>
+            <p class="about-company_description section-text">
+                En EcoVida, nos dedicamos a la creación de productos que respeten el medio ambiente, con el objetivo de
+                reducir el impacto ambiental a través de soluciones innovadoras. Creemos que pequeñas acciones pueden
+                generar grandes cambios, y nuestro nuevo producto, EcoFiltro, es un paso más hacia un mundo más
+                sostenible.
+            </p>
+        </section>
+        <section class="contact-us" id="contact-us">
+            <h1 class="contact-us__title section-title">Contáctanos</h1>
+            <form class="contact-form">
+                <div class="contact-form__inputs">
+                    <label for="name">Nombre y Apellidos</label>
+                    <input required id="name" type="text">
+                    <label for="email">Correo electrónico</label>
+                    <input required id="email" type="email">
+                </div>
+                <label for="message">Déjenos su mensaje</label>
+                <textarea id="message"></textarea>
+                <button class="contact-form__submit-button" type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <h1 class="main-footer__head">Puede visitar EcoVida en:</h1>
+        <ul class="social-medias">
+            <li class="social-media"><a>Facebook</a></li>
+            <li class="social-media"><a>Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
